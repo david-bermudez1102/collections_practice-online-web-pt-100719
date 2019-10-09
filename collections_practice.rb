@@ -34,8 +34,9 @@ def kesha_maker(array)
   new_array = []
 
   array.each { |e|
-    e.split(//)[2] = "$"
-    new_array<<e
+    split_string = e.split(//)
+    split_string[2] = "$"
+    new_array<<split_string.join
   }
   new_array
 end
