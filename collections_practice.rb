@@ -19,4 +19,5 @@ def swap_elements(array,index,destination_index)
   second_element = array[destination_index]
   array[index] = second_element
   array[destination_index] = first_element
+  array
 end
