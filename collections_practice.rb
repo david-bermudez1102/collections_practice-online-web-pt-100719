@@ -42,7 +42,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
 start_with_a = []
 
   array.each{ |e|
@@ -53,3 +52,5 @@ start_with_a = []
 
   start_with_a
 end
+
+
