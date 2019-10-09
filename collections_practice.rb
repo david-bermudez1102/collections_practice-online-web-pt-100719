@@ -52,5 +52,3 @@ start_with_a = []
 
   start_with_a
 end
-
-
