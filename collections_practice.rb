@@ -13,3 +13,7 @@ def sort_array_char_count(array)
     a.length <=> b.length
   }
 end
+
+def swap_elements(array,index,destination_index)
+  array[0] = array[1]
+end
