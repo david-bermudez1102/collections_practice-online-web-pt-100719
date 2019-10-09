@@ -43,7 +43,7 @@ end
 
 def find_a(array)
 
-  array.each{ |e|
+  array.map{ |e|
     if(e.start_with?("a"))
       e
     end
