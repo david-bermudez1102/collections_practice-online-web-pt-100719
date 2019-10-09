@@ -50,6 +50,6 @@ start_with_a = []
       start_with_a << e
     end
   }
-  
+
   start_with_a
 end
