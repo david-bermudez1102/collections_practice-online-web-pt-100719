@@ -52,3 +52,9 @@ start_with_a = []
 
   start_with_a
 end
+
+def sum_array(array)
+  array.inject do |sum, n|
+    sum + n
+  end
+end
