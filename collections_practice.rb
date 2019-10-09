@@ -58,3 +58,12 @@ def sum_array(array)
     sum + n
   end
 end
+
+def add_s(array)
+  array.each_with_index.collect do |e, index|
+    if(index != 1)
+      e << "s"
+    end
+    e
+  end
+end
