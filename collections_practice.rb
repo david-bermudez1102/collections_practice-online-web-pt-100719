@@ -43,9 +43,13 @@ end
 
 def find_a(array)
 
-  array.map{ |e|
+start_with_a = []
+
+  array.each{ |e|
     if(e.start_with?("a"))
-      e
+      start_with_a << e
     end
   }
+  
+  start_with_a
 end
